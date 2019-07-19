@@ -24,6 +24,8 @@ namespace LoLDuoWinrateChecker
 		/// </summary>
 		private static int AmountOfRequests = 0;
 
+		#region Config
+
 		/// <summary>
 		/// Summoner name of the player to check
 		/// </summary>
@@ -43,6 +45,8 @@ namespace LoLDuoWinrateChecker
 		/// Amount of matches to take from match history - the actual size can be much lower than this
 		/// </summary>
 		public static int MatchesToTake = 298;
+
+		#endregion
 
 		static Program()
 		{
